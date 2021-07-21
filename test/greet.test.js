@@ -1,5 +1,5 @@
 let assert = require("assert");
-var greet = require('../greet');
+var greet = require('../function/greet');
 describe('The greet function', function(){
 
     it('should be able to greet bob', function(){
