@@ -5,7 +5,7 @@ describe("isWeekDay",function(){
     it("should return true if a string is a weekday",function(){
         assert.equal(true,isweekDay("Monday"))
     });
-    it("should return false if a string is not a weekday",function(){
+    it("should return false if a string is not a weekEnd",function(){
         assert.equal(false,isweekDay("sunday"))
     });
 });
