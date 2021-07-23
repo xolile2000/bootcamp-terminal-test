@@ -8,7 +8,7 @@ describe('transportFee', function(){
     it('should be able to return R10 for afternoon shift', function(){
         assert.equal('R10', transportFee('afternoon'));
     });
-    it('should be able to return free if no shift was worked', function(){
-        assert.equal('free', transportFee(''));
+    it('should be able to return free if night shift was worked', function(){
+        assert.equal('free', transportFee('night'));
     });
 });

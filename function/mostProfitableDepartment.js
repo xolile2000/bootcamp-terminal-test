@@ -28,3 +28,7 @@ module.exports = function(salesdata){
   return currentDep
   console.log(currentDep)
 }
+
+         
+     
+    
